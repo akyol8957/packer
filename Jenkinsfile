@@ -1,3 +1,4 @@
+// maybe it is a good idea to delete all default vpc's in the following region & then recreate them to make sure previous infrastructure problems would not trigger some errors.
 if(env.BRANCH_NAME ==~ "dev-.*"){
     environment="dev"
     region="us-east-1"
