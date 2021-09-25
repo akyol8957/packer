@@ -1,4 +1,3 @@
-
 if(env.BRANCH_NAME ==~ "dev-.*"){
     environment="dev"
     region="us-east-1"
